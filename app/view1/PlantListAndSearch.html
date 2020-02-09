@@ -13,14 +13,6 @@
             font-family:arial;
         }
     </style>
-    <script>
-        // var app = angular.module('app', []);
-        // app.controller("appController", function ($scope) {
-        //     $scope.employees = [{
-        // JS Logic still to be added.
-        //     });
-
-    </script>
 </head>
 <body style="background-color:#DDE4E9;font-family:arial;">
 <fieldset style="background-color:#DDE4E9;">
@@ -30,12 +22,13 @@
             <table>
                 <th>Common Name</th><th>Plant Type</th><th>Bloom Time</th>
                 <th>Flower Color</th><th>Soil Type</th><th>Habitat Value</th>
-                <tr ng-repeat="">
-                    <td>{{}}</td>
-                    <td>{{}}</td>
-                    <td>{{}}</td>
-                    <td>{{}}</td>
-                    <td>{{}}</td>
+                <tr ng-model="data.myApp">
+                    <td>{{data.CommonName}}</td>
+                    <td>{{data.PlantName}}</td>
+                    <td>{{data.BloomTime}}</td>
+                    <td>{{data.FlowerColor}}</td>
+                    <td>{{data.SoilType}}</td>
+                    <td>{{data.HabitatValue}}</td>
                 </tr>
             </table>
         </div>
@@ -53,13 +46,6 @@
         font-family:arial;
     }
 </style>
-<script>
-    // var app = angular.module('app', []);
-    // app.controller("appController", function ($scope) {
-    //     $scope.Plants = [{
-    // JS Logic still to be added.
-    //     },
-</script>
 </head>
 <body style="background-color:#DDE4E9;font-family:arial;">
 <fieldset style="background-color:#DDE4E9;">

@@ -120,7 +120,7 @@ which we run with the [Karma][karma] test runner. We provide a Karma configurati
 
 * The configuration is found at `karma.conf.js`.
 * The unit tests are found next to the code they are testing and have a `.spec.js` suffix (e.g.
-  `PlantListAndSearch.spec.js`).
+  `view1.spec.js`).
 
 The easiest way to run the unit tests is to use the supplied npm script:
 
